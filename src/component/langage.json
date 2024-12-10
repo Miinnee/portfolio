@@ -1,0 +1,28 @@
+{
+    "languages": [
+      {
+        "name": "Java",
+        "description": "Je pratique le langage de programmation Java depuis bientot 2 ans. J'ai commencé mon apprentissage  de Java en produisant de nombreux Plugin Minecraft, aussi pour un projet de Voiture Autonome",
+        "rating": 6,
+        "startDate" : "2022-08-10"
+      },
+      {
+        "name" : "C++",
+        "description": "Je pratique le C++ depuis ma premiere année de BUT. J'ai pu produire un bon nombre de petit projet",
+        "rating": 3,
+        "startDate" : "2024-09-01"
+      },
+      {
+        "name" : "HTML / CSS",
+        "description": "Je pratique le css et le HTML regulierement, dont la redaction de cette page ",
+        "startDate" :  "2022-08-10",
+        "sub_page": [
+          {
+            "name" : "React",
+            "description": "J'ai commencé a utilisé le Framwork React pour faire ce portfolio",
+            "startDate" :  "2024-10-10"
+          }
+        ]
+      }
+    ]
+  }
