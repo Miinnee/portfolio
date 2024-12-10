@@ -1,13 +1,28 @@
 
 import './App.css';
-import Header  from './component/Header';
-import Presentation from './component/Presentation';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import React from 'react';
+
+import Home from './vue/Home';
+import Formation from './vue/Formation';
+
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Presentation />
+
+      <Router basename="/portfolio"> {/* Le basename est essentiel pour GitHub Pages */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/formation" element={<Formation />} />
+
+          {/*<Route path="*" element={<NotFound />} />} {/* Route pour les pages non trouvées */}
+        </Routes>
+      </Router>
+      
+
     </div>
   );
 }

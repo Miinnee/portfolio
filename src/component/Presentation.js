@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import languagesData from "./langage.json";
+import languagesData from "./json/langage.json";
 
 function Presentation() {
     return (
