@@ -1,63 +1,49 @@
 {
     "formation": [
         {
-            "titre" : "IUT Orsay",
-            "sous_titre" : "Université Paris Saclay",
-            "ville" : "Gif-sur-Yvette",
-            "adresse" : "13 avenue des Sciences",
-            "code_postal" : "91190",
-            "date_debut" : "2024-09-01",
-            "date_fin" : "",
-            "global" : [
-                {
-                    "projets" : [
-                        {
-                            "name" : "Concours Voiture Autonome",
-                            "description": "Ce concours a eu pour but ne nous faire construire une voiture completement Autonome, afin de suivre un circuit. Celui ci aura eu une premiere version sur le langage Java, pour reussir celui ci avec le langage Python, sur une Raspberry Pi4",
-                            "date" : "2024-06-3",
-                            "image_src" : "%PUBLIC_URL%/images/garac_main.jpg"
-                        }
-                    ]
-                }
-            ]
-            
+            "titre": "IUT Orsay",
+            "sous_titre": "Université Paris Saclay",
+            "ville": "Gif-sur-Yvette",
+            "adresse": "13 avenue des Sciences",
+            "code_postal": "91190",
+            "date_debut": "2024-09-01",
+            "date_fin": "",
+            "global": []
         },
         {
-            "titre" : "Lycée Missak et Mélinée Manouchian",
-            "sous_titre" : "Anciennement Lycée Jean Jaures",
-            "ville" : "Chatenay-Malabry",
-            "adresse" : "280 avenune Jean Jaures",
-            "code_postal" : "92290",
-            "date_debut" : "2022-09-01",
-            "date_fin" : "2024-09-01",
-            "global" : [
+            "titre": "Lycée Missak et Mélinée Manouchian",
+            "sous_titre": "Anciennement Lycée Jean Jaurès",
+            "ville": "Châtenay-Malabry",
+            "adresse": "280 avenue Jean Jaurès",
+            "code_postal": "92290",
+            "date_debut": "2022-09-01",
+            "date_fin": "2024-09-01",
+            "global": [
                 {
-                    "diplome" : {
-                        "diplome" : "Bac STI2D",
-                        "specialite" : "SIN - Systeme Informatique Numerique"
+                    "diplome": {
+                        "diplome": "Bac STI2D",
+                        "specialite": "SIN - Système Informatique Numérique"
                     },
-
-                    "projets" : [
+                    "projets": [
                         {
-                            "name" : "Concours Voiture Autonome",
-                            "description": "Ce concours a eu pour but ne nous faire construire une voiture completement Autonome, afin de suivre un circuit. Celui ci aura eu une premiere version sur le langage Java, pour reussir celui ci avec le langage Python, sur une Raspberry Pi4",
-                            "date" : "2024-06-3",
-                            "image_src" : "%PUBLIC_URL%/images/garac_main.jpg"
+                            "name": "Concours Voiture Autonome",
+                            "description": "Ce concours a eu pour but de nous faire construire une voiture complètement autonome, afin de suivre un circuit. Celui-ci a eu une première version en Java, puis en Python sur une Raspberry Pi4.",
+                            "date": "2024-06-03",
+                            "image_src": "%PUBLIC_URL%/images/garac_main.jpg"
                         }
                     ]
                 }
             ]
         },
         {
-            "titre" : "Lycée Lakanal",
-            "sous_titre" : "Lycée public lakanal",
-            "ville" : "Sceaux",
-            "adresse" : "3 Av. du Président Franklin Roosevelt",
-            "code_postal" : "92330",
-            "date_debut" : "2021-09-01",
-            "date_fin" : "2022-09-01",
-            "global" : [
-            ]
+            "titre": "Lycée Lakanal",
+            "sous_titre": "Lycée public Lakanal",
+            "ville": "Sceaux",
+            "adresse": "3 Av. du Président Franklin Roosevelt",
+            "code_postal": "92330",
+            "date_debut": "2021-09-01",
+            "date_fin": "2022-09-01",
+            "global": []
         }
     ]
 }

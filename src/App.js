@@ -6,6 +6,7 @@ import React from 'react';
 
 import Home from './vue/Home';
 import Formation from './vue/Formation';
+import NoPage from './vue/NoPage';
 
 
 
@@ -17,7 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/formation" element={<Formation />} />
-
+          <Route path="*" element={<NoPage />} />
           {/*<Route path="*" element={<NotFound />} />} {/* Route pour les pages non trouvées */}
         </Routes>
       </Router>
